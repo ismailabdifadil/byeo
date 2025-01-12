@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Youth Empowerment",
+        "description": ["BYEO focuses on empowering young people by fostering education, discovering hidden talents, and conducting community campaigns to prevent drug abuse and harmful behaviors.","The program aims to inspire youth to achieve their full potential and contribute positively to their communities."],
+        "icon": "/assets/icons/youth-empowerment.svg"
+    },
+    {
+        "title": "Child Protection",
+        "description": ["Protecting the rights and well-being of children is at the heart of BYEO.","Through community-based initiatives, the program safeguards children fromviolence, exploitation, and discrimination,ensuring they grow in a safe, nurturing, and supportive environment."],
+        "icon": "/assets/icons/child-protection.svg"
+    },
+    {
+        "title": "Education Initiatives",
+        "description": ["BYEO is dedicated to improving education access for children by supporting teacher training, developing educational infrastructure, and creating a conducive learning environment."," The program empowers communities to manage schools and ensures children receive quality education for a better future."],
+        "icon": "/assets/icons/education-initiatives.svg"
+    }
+]
