@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from './shared/Button'
 import childrenImg from '/assets/children.jpg'
+import { Link } from 'react-router-dom'
 const WhoWeAre = () => {
   return (
     <div>
@@ -22,7 +23,9 @@ const WhoWeAre = () => {
               conditions of Somali community of youth.
             </p>
             <div className='mb-5'>
-              <Button className='w-fit'>Learn More</Button>
+              <Link to='/about-us'>
+                <Button className='w-fit'>Learn More</Button>
+              </Link>
             </div>
           </div>
           <div>

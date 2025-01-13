@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import Button from './shared/Button'
 
 const Navbar = () => {
@@ -25,7 +25,9 @@ const Navbar = () => {
             )
           })}
         </ul>
-        <Button>Contact Us</Button>
+        <Link to='/contact-us'>
+          <Button>Contact Us</Button>
+        </Link>
       </div>
     </nav>
   )

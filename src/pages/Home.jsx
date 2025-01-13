@@ -13,9 +13,6 @@ const Home = () => {
       <WhoWeAre />
       <OurPrograms />
       <Actions />
-      <CallToAction />
-      <Footer />
-      <Copyright />
     </>
   )
 }

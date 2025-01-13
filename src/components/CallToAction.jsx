@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Button from './shared/Button'
 import smillingBoy from '/assets/smilling-boy.png'
 
@@ -13,7 +14,9 @@ const CallToAction = () => {
             Your support helps us provide education, protect children, and
             empower communities in Somalia.
           </p>
-          <Button className='mt-6'>Contact Us</Button>
+          <Link to='/contact-us'>
+            <Button className='mt-6'>Contact Us</Button>
+          </Link>
         </div>
 
         <div className='flex justify-center'>

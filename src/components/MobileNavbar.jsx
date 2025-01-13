@@ -20,7 +20,7 @@ const MobileNavbar = ({ toggleNavbar }) => {
               <NavLink
                 to={`/${to}`}
                 className={({ isActive }) =>
-                  `text-lg font-semibold hover:text-purple-200 transition ${
+                  `text-lg font-medium hover:text-purple-200 transition ${
                     isActive && 'border-b-2 border-white'
                   }`
                 }

@@ -1,0 +1,33 @@
+[
+    {
+      "title": "Empowering the Leaders of Tomorrow",
+      "description": "BYEO’s youth empowerment programs aim to create a safe and structured environment for young people to develop their potential. Programs focus on:",
+      "bullets": [
+        "Promoting the love of education among youth.",
+        "Discovering and nurturing talents in the community.",
+        "Running anti-drug and alcohol campaigns to keep youth off the streets."
+      ],
+      "image": "/assets/empowering-leaders.png"
+    },
+    {
+      "title": "Safeguarding the Rights of Every Child",
+      "description": "BYEO is committed to promoting the protection, development, and welfare of children. Programs focus on:",
+      "bullets": [
+        "Raising awareness about child rights.",
+        "Preventing exploitation and discrimination.",
+        "Strengthening community structures for child care and protection."
+      ],
+      "image": "/assets/safeguarding-rights.png"
+    },
+    {
+      "title": "Breaking the Cycle of Violence",
+      "description": "BYEO’s GBV prevention programs aim to raise awareness and provide support mechanisms for survivors. Key initiatives include:",
+      "bullets": [
+        "Educating communities about the link between GBV and protection.",
+        "Organizing awareness campaigns and community discussions.",
+        "Providing psychosocial support, medical referrals, and legal aid for survivors."
+      ],
+      "image": "/assets/breaking-violence.png"
+    }
+  ]
+  
