@@ -13,7 +13,7 @@ const Header = () => {
   }
   return (
     <>
-      <div className='py-4 w-full border-b-[1.5px] border-brand-stroke  bg-white sticky top-0'>
+      <div className='py-4 w-full border-b-[1.5px] border-brand-stroke  bg-white sticky top-0 z-40'>
         <div className='container flex justify-between items-center'>
           <Link to='/' onClick={() => setIsOpen(false)}>
             <img

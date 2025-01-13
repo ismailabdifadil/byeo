@@ -1,5 +1,11 @@
+import PageTitle from '../components/PageTitle'
+import programsCover from '/assets/programs-cover.png'
 const Programs = () => {
-  return <div className="container">From Programs</div>
+  return (
+    <div>
+      <PageTitle pageTitle='Our Programs' cover={programsCover} />
+    </div>
+  )
 }
 
 export default Programs

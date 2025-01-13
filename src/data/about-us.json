@@ -1,0 +1,20 @@
+{
+    "title": "About Us",
+    "story": {
+      "title": "Our Story",
+      "content": "Barbaar Youth Empowerment Organization (BYEO) is a Somali non-governmental organization founded in 2010 to address the socio-economic challenges faced by youth and vulnerable communities in South Central Somalia. Operating in regions like Baidoa, Bakool, Lower Shebelle, and Benadir, BYEO focuses on youth empowerment, education, child protection, and advocacy for human rights. The organization works to improve living standards and foster development through initiatives in education, livelihoods, WASH (Water, Sanitation, and Hygiene), and community-based partnerships."
+    },
+    "sections": [
+      {
+        "title": "Our Mission",
+        "icon": "/assets/icons/mission-icon.svg",
+        "content": "To work with stakeholders in local youth organizations and development within and beyond Somalia to advance growth with a special emphasis on youth, children, and women. Our strategies empower these groups to play a vital role in the social, economic, political, and cultural growth of the community"
+      },
+      {
+        "title": "Our Vision",
+        "icon": "/assets/icons/vision-icon.svg",
+        "content": "We envision a society where everyone is equal and developed, capable of overcoming challenges like ignorance, armed conflict, and illegal migration through integrated solutions and gender-responsive approaches."
+      }
+    ]
+  }
+  

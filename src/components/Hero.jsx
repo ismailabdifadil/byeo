@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Button from './shared/Button'
 import heroImg from '/assets/hero-img.png'
 import heroPattern from '/assets/hero-pattern.jpg'
@@ -21,10 +22,14 @@ const Hero = () => {
             advocacy, and community development.
           </p>
           <div className=' flex flex-col gap-3 md:flex-row'>
-            <Button className='w-full md:w-fit'>About Us</Button>
-            <Button variant='outline' className='w-full md:w-fit'>
-              Learn More
-            </Button>
+            <Link to='/about-us'>
+              <Button className='w-full md:w-fit'>About Us</Button>
+            </Link>
+            <Link to='/programs'>
+              <Button variant='outline' className='w-full md:w-fit'>
+                Our Programs
+              </Button>
+            </Link>
           </div>
         </div>
 

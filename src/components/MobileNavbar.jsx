@@ -9,7 +9,7 @@ const MobileNavbar = ({ toggleNavbar }) => {
       <MdClose
         aria-label='Close menu'
         size={40}
-        className='transition-all absolute top-10 right-8 cursor-pointer md:hidden text-white'
+        className='transition-all absolute top-10 right-8 cursor-pointer md:hidden text-white z-50'
         onClick={toggleNavbar}
       />
       <ul className='mt-20 space-y-6 flex flex-col'>
