@@ -25,18 +25,17 @@ const ContactSection = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-
     emailjs
       .sendForm(
-        'service_aqfkmfa',
-        'template_asi3ln7',
+        import.meta.env.VITE_APP_SERVICE_ID,
+        import.meta.env.VITE_APP_TEMPALETE_ID,
         e.target,
-        '6R2Mgn_A5-2KZkWPF'
+        import.meta.env.VITE_APP_USER_ID
       )
       .then(
         (result) => {
           alert('Message sent successfully!')
-          e.target.reset() // Reset the form
+          e.target.reset()
         },
         (error) => {
           console.error('EmailJS Error:', error)
