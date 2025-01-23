@@ -17,16 +17,28 @@ const Footer = () => {
           </p>
           <div className='flex gap-4'>
             <div className='bg-brand-lightPeach p-2 rounded-lg'>
-              <BsFacebook
-                size={28}
-                className='text-brand-primary hover:text-purple-600 cursor-pointer'
-              />
+              <a
+                href='https://www.facebook.com/diinsaalow'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <BsFacebook
+                  size={28}
+                  className='text-brand-primary hover:text-purple-600 cursor-pointer'
+                />
+              </a>
             </div>
             <div className='bg-brand-lightPeach p-2 rounded-lg '>
-              <BsWhatsapp
-                size={28}
-                className='text-brand-primary hover:text-purple-600 cursor-pointer'
-              />
+              <a
+                href='https://wa.me/252615558264'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <BsWhatsapp
+                  size={28}
+                  className='text-brand-primary hover:text-purple-600 cursor-pointer'
+                />
+              </a>
             </div>
           </div>
         </div>

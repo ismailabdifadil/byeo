@@ -7,7 +7,7 @@ const Copyright = () => {
         <p className='text-xs sm:text-sm'>
           &copy; {date} Barbaarorg. All rights reserved. | Developed by{' '}
           <a
-            href='https://www.linkedin.com/in/ismailabdifadil'
+            href='https://my-social-media-profiles.vercel.app/'
             target='_blank'
             rel='noopener noreferrer'
             className='underline hover:text-brand-lightBlue transition-colors duration-200'

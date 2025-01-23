@@ -1,6 +1,7 @@
 import React from 'react'
 import MainProgram from './MainProgram'
 import programs from '../data/main-programs.json'
+import AnimatedSection from './AnimatedSection'
 
 const MainPrograms = () => {
   return (
@@ -8,14 +9,16 @@ const MainPrograms = () => {
       <div className='container sm:px-6 lg:px-8'>
         <h2 className='section-title'>Our Main Programs</h2>
         {programs.map((program, index) => (
-          <MainProgram
-            key={index}
-            title={program.title}
-            description={program.description}
-            bullets={program.bullets}
-            image={program.image}
-            reverse={index % 2 !== 0}
-          />
+          <AnimatedSection>
+            <MainProgram
+              key={index}
+              title={program.title}
+              description={program.description}
+              bullets={program.bullets}
+              image={program.image}
+              reverse={index % 2 !== 0}
+            />
+          </AnimatedSection>
         ))}
       </div>
     </section>
