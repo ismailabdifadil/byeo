@@ -9,7 +9,7 @@ const MainPrograms = () => {
       <div className='container sm:px-6 lg:px-8'>
         <h2 className='section-title'>Our Main Programs</h2>
         {programs.map((program, index) => (
-          <AnimatedSection>
+          <AnimatedSection key={index}>
             <MainProgram
               key={index}
               title={program.title}

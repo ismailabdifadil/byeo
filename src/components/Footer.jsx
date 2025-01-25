@@ -4,9 +4,9 @@ import { BsFacebook, BsWhatsapp } from 'react-icons/bs'
 const Footer = () => {
   return (
     <div className='bg-white'>
-      <div className='container grid md:grid-cols-3 py-24 gap-4'>
+      <div className='container grid space-y-7 md:grid-cols-3 py-24 gap-4'>
         <div className='flex flex-col space-y-4'>
-          <div className='flex items-center gap-4'>
+          <div className='flex items-center gap-4 space-y-4'>
             <img src={logo} className='w-16 md:w-20' alt='' />
             <h1 className='text-h2 text-brand-primary'>BYEO</h1>
           </div>
@@ -18,7 +18,7 @@ const Footer = () => {
           <div className='flex gap-4'>
             <div className='bg-brand-lightPeach p-2 rounded-lg'>
               <a
-                href='https://www.facebook.com/diinsaalow'
+                href='https://www.facebook.com/IsmailAbdifadil1'
                 target='_blank'
                 rel='noopener noreferrer'
               >
