@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom'
 import Button from './shared/Button'
 import heroImg from '/assets/hero-img.png'
 import heroPattern from '/assets/hero-pattern.jpg'
-import { motion } from 'framer-motion'
 const Hero = () => {
   return (
     <div
@@ -11,7 +10,7 @@ const Hero = () => {
         backgroundImage: `url(${heroPattern})`,
       }}
     >
-      <div className='container sm:px-6 lg:px-8 flex flex-col md:flex-row md:items-center justify-between py-32 md:py-10 lg:py-20 '>
+      <div className='container sm:px-6 lg:px-8 flex flex-col md:flex-row md:items-center justify-between pt-28 pb-24 md:py-10 lg:py-10 '>
         {/* Left Content */}
         <div className='md:w-1/2 lg:w-2/3'>
           <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-snug md:leading-normal  md:text-left'>

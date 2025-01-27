@@ -1,39 +1,4 @@
-// import React from 'react'
-
-// const Program = ({ title, description, index, icon }) => {
-//   const bgClass =
-//     index === 0
-//       ? 'bg-brand-lightPeach'
-//       : index === 1
-//       ? 'bg-brand-lightMint'
-//       : 'bg-brand-lightBlue'
-
-//   return (
-//     <>
-//       <div className={`px-5 py-10 rounded-[10px] ${bgClass}`}>
-//         <div className='flex items-center gap-4'>
-//           <div className='bg-white p-2 rounded-[10px]'>
-//             <img src={icon} alt='' />
-//           </div>
-//           <h3 className='text-h3'>{title}</h3>
-//         </div>
-//         <p className='mt-12 text-body'>
-//           {description.map((text, idx) => (
-//             <React.Fragment key={idx}>
-//               {text}
-//               <br /> <br />
-//             </React.Fragment>
-//           ))}
-//         </p>
-//       </div>
-//     </>
-//   )
-// }
-
-// export default Program
-
-import React from 'react'
-
+import React from 'react';
 const Program = ({ title, description, index, icon }) => {
   // Define background class dynamically
   const bgClass =
