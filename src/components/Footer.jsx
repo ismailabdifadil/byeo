@@ -18,7 +18,7 @@ const Footer = () => {
           <div className='flex gap-4'>
             <div className='bg-brand-lightPeach p-2 rounded-lg'>
               <a
-                href='https://www.facebook.com/IsmailAbdifadil1'
+                href='https://www.facebook.com/share/1XnMfWtdrU/'
                 target='_blank'
                 rel='noopener noreferrer'
               >
